@@ -6,6 +6,24 @@
 
 /* Tekst styling */
 
+/* Links */
+.menu a:link {
+    color: #374824;
+  }
+  
+.menu a:visited {
+    color: #374824;
+  }
+
+.menu a:hover {
+    color: #BB3A30;
+  }
+  
+.menu a:active {
+    color: #BB3A30;
+  }
+/* Links */
+
 /* Footer */
 footer {
     background-color: #DFCBA6 ;
@@ -14,29 +32,22 @@ footer {
 }
 /* Footer */
 
-/* Burger menu */
+/* Header*/
 header nav {
     background-color: #DFCBA6 ;
     color: #374824;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     padding-top: 20px;}
-
-.logo{
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 
 .menu{
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-around;
 }
 
 .menu li {
@@ -47,13 +58,11 @@ header nav {
 .menu a {
     text-decoration: none;
     color: #374824;
-    transition: color 0.3s;
 }
 
-.menu a:hover {
-    color: #BB3A30;
-}
+/* Header*/
 
+/* Burger menu */
 .menu-icon {
     display: none;
     font-size: 24px;
