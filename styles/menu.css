@@ -1,0 +1,13 @@
+.menu-grid1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex_beer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#prices{
+text-align: right;}
