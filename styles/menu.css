@@ -1,7 +1,16 @@
+main{
+    margin: 7%;
+}
+
 .menu-grid1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 60px;
 }
+.menu-grid1-1 h1{
+    grid-column: -1/-3;
+}
+
 
 .flex_beer {
     display: flex;
