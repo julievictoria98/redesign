@@ -1,0 +1,12 @@
+/* GRID layout */
+.grid_1_8_1{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    column-gap: 1em;
+}
+
+.grid_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+}
