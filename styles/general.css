@@ -1,8 +1,24 @@
 /* Fontface */
+@font-face {
+    font-family: 'Typewriter';
+    src: url(../fonts/JMH\ Typewriter-Thin.woff2);
+}
+
+@font-face {
+    font-family: 'Bearer';
+    src: url(../fonts/Light\ Bearer.woff2);
+}
+/*Fonts*/
+
 
 /* Fontface */
 
 /* Tekst styling */
+h1,h2{
+    font-family:'Bearer';}
+
+p{  
+    font-family:'Typewriter';}
 
 /* Tekst styling */
 
@@ -58,6 +74,7 @@ header nav {
 .menu a {
     text-decoration: none;
     color: #374824;
+    font-family: 'Typewriter';
 }
 
 /* Header*/
