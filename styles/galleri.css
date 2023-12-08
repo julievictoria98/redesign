@@ -1,12 +1,26 @@
 /* GRID layout */
-.grid_1_8_1{
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    column-gap: 1em;
+.grid_1_8_1 {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  column-gap: 1em;
 }
 
-.grid_1_1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1em;
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+
+/* billede style */
+.foto {
+  position: relative;
+  width: 657px;
+  height: 441px;
+}
+
+#toOl {
+  position: relative;
+  width: 407px;
+  height: 432px;
 }
