@@ -1,129 +1,132 @@
 /* Fontface */
 @font-face {
-    font-family: 'Typewriter';
-    src: url(../fonts/JMH\ Typewriter-Thin.woff2);
+  font-family: "Typewriter";
+  src: url(../fonts/JMH\ Typewriter-Thin.woff2);
 }
 
 @font-face {
-    font-family: 'Bearer';
-    src: url(../fonts/Light\ Bearer.woff2);
+  font-family: "Bearer";
+  src: url(../fonts/Light\ Bearer.woff2);
 }
 /*Fonts*/
-
 
 /* Fontface */
 
 /* Tekst styling */
-h1,h2{
-    font-family:'Bearer';}
+h1,
+h2 {
+  font-family: "Bearer";
+}
 
-p{  
-    font-family:'Typewriter';}
+p {
+  font-family: "Typewriter";
+}
 
 /* Tekst styling */
 
 /* Links */
 .menu a:link {
-    color: #374824;
-  }
-  
+  color: #374824;
+}
+
 .menu a:visited {
-    color: #374824;
-  }
+  color: #374824;
+}
 
 .menu a:hover {
-    color: #BB3A30;
-  }
-  
+  color: #bb3a30;
+}
+
 .menu a:active {
-    color: #BB3A30;
-  }
+  color: #bb3a30;
+}
 /* Links */
 
 /* Footer */
 footer {
-    background-color: #DFCBA6 ;
-    color: #374824;
-    text-align: center;
+  background-color: #dfcba6;
+  color: #374824;
+  text-align: center;
 }
 /* Footer */
 
 /* Header*/
 header nav {
-    background-color: #DFCBA6 ;
-    color: #374824;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 20px;
-    padding-top: 20px;}
+  background-color: #dfcba6;
+  color: #374824;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  padding-top: 20px;
+}
 
-.menu{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .menu li {
-    margin-right: 5cqw;
-    margin-left: 5cqw;
+  margin-right: 5cqw;
+  margin-left: 5cqw;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #374824;
-    font-family: 'Typewriter';
+  text-decoration: none;
+  color: #374824;
+  font-family: "Typewriter";
 }
 
 /* Header*/
 
 /* Burger menu */
 .menu-icon {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 600px) {
-    input[type="checkbox"] {
-        display: none;
-    }
+  input[type="checkbox"] {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 599px) {
-    .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        background-color: #DFCBA6;
-        z-index: 1;
-    }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #dfcba6;
+    z-index: 1;
+  }
 
-    .menu.show {
-        display: flex;
-    }
+  .menu.show {
+    display: flex;
+  }
 
-    .menu li {
-        margin: 0;
-        text-align: center;
-        padding: 10px 0;
-    }
+  .menu li {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
 
-    .menu-icon {
-        display: block;
-    }
+  .menu-icon {
+    display: block;
+  }
 
-    input[type="checkbox"] {
-        display: none;
-    }
+  input[type="checkbox"] {
+    display: none;
+  }
 
-    input[type="checkbox"]:checked+.menu-icon+.menu {
-        display: flex;
-    }
+  input[type="checkbox"]:checked + .menu-icon + .menu {
+    display: flex;
+  }
 }
 /* Burger menu */
