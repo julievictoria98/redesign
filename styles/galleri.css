@@ -1,8 +1,13 @@
+#kant{
+    margin: 3%;
+}
+
 /* GRID layout */
 .grid_1_8_1 {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
   column-gap: 1em;
+  row-gap: 1em;
 }
 
 .grid_1_1 {
@@ -23,4 +28,16 @@
   position: relative;
   width: 407px;
   height: 432px;
+}
+
+/* Knap */
+.btn {
+  background-color: #374824;
+  width: 1359px;
+  height: 75px;
+  color: #ffeece;
+  font-family: "Typewriter";
+  font-size: 30px;
+  position: absolute;
+  justify-content: center;
 }
