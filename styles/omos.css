@@ -1,0 +1,6 @@
+.About-us-grid1-1 {
+  grid-column: 1fr 1fr;
+  display: flex;
+  background-color: #a48a6373;
+  padding: 10%;
+}
