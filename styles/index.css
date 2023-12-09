@@ -10,6 +10,11 @@
     grid-template-columns: 2fr 1fr;
   }
 
+#grid1-1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
 #forside{
   grid-column: 2;
 }
@@ -23,6 +28,15 @@
 
 }
 
+#grid1-1 a{
+  font-size: 1.5cqw;
+  padding-top: 30%;
+}
+
+#link1{
+  padding-bottom: 10%;
+}
+
 
 #forsidetekst{
   background-color: #75341F80;
@@ -31,10 +45,13 @@
 
 p{
   color: #FFEFCF;
+  font-size: 2cqw;
  }
 
 #grøntekst{
  color: #384825;
+ padding-top: 10%;
+ padding-bottom: 10%;
 }
 
 
@@ -52,12 +69,17 @@ p{
 
 #forsidebtns a{
     text-decoration: none;
-    font-family: "Typewriter";
+    font-family:'Typewriter';
     background-color:#374824;
     color: #FFEECE;
     cursor: pointer;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    display: grid;
+    margin-top: 5%;
   }  
 
 a{
