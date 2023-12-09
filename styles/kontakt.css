@@ -1,4 +1,45 @@
 
+@media screen and (min-width:480px) {
+
+  #grid1_8_1{
+      display: grid;
+      grid-template-columns: 1fr 8fr 1fr;
+    }
+  
+  #kontakt{
+    grid-column: 2;
+  }
+
+  #kontaktimg{
+    width: 501px;
+    height: 461px;
+    align-self: stretch;
+    object-fit: cover;
+  }  
+  
+  }
+
+#kontaktboks{
+  background-color: #75341F80;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#kontaktboks p{
+  color: #FFEFCF;
+}
+
+p{
+  color: #384825;
+}
+
+#formboks{
+  background-color: #A48A63;
+  padding: 5%;;
+}
+
+
 
 /*Forms */
 form {

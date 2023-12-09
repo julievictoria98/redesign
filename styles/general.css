@@ -15,15 +15,48 @@ body{
 }
 /* Fontface */
 
+
 /* Tekst styling */
-h1,
+@media screen and (max-width:480px) {
+  h1{
+    font-family: "Bearer";
+    color: #374824;
+    font-size: 8cqw;
+  }
+  
+  h2 {
+    font-family: "Bearer";
+    color: #374824;
+    font-size: 4cqw;
+  }
+  
+  p {
+    font-family: "Typewriter";
+    font-size: 4cqw;
+  }
+ 
+  }
+
+h1{
+  font-family: "Bearer";
+  color: #374824;
+  font-size: 5cqw;
+}
+
 h2 {
   font-family: "Bearer";
+  color: #374824;
+  font-size: 3cqw;
+}
+
+h3{
+  font-family: "Typewriter";
   color: #374824;
 }
 
 p {
   font-family: "Typewriter";
+  
 }
 
 /* Tekst styling */
