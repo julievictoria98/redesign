@@ -1,3 +1,13 @@
+/* tekst og overskrift */
+h1{
+  font-size: 150px;
+}
+
+h3{
+  font-family: 'Typewriter';
+  font-size: 50px;
+}
+
 #kant{
     margin: 3%;
 }
