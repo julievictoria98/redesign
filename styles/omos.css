@@ -1,0 +1,79 @@
+.About-us-grid1-1 {
+  grid-column: 1fr 1fr;
+  display: flex;
+  background-color: #a48a6373;
+  padding: 4%;
+  margin: 5%;
+  column-gap: 10%;
+}
+
+/* Illustrationer i baggrunden */
+.CirkelRød {
+  position: absolute;
+  z-index: -1;
+  left: 60%;
+  bottom: 20%;
+  aspect-ratio: 587/585;
+  width: 25%;
+}
+
+#CirkelRødLil {
+  position: absolute;
+  z-index: -1;
+  left: -3%;
+  bottom: 5%;
+  aspect-ratio: 587/585;
+  width: 25%;
+}
+
+/* Layout */
+#video_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#kolonne_container {
+  display: flex;
+  flex-direction: column;
+  margin-right: -35%;
+}
+.spillemaskine {
+  width: 50%;
+  margin-top: 5%;
+}
+
+/* billedestørrelse */
+.glas {
+  width: 50%;
+}
+
+#kontakt_os {
+  padding-top: 15%;
+}
+
+/* Tekst styling */
+p {
+  font-size: 45px;
+}
+
+h1 {
+  display: flex;
+  font-size: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 80px;
+  margin-left: 35%;
+  margin-top: -8%;
+}
+
+/* video-størrelse */
+@media screen and (min-width: 1200px) {
+  #video_container .youtube_video {
+    width: 90%;
+    height: 90vh;
+  }
+}

@@ -11,10 +11,10 @@
   <body>
     <header>
       <nav>
+        <div class="logo"><a href="index.html"><img src="imgs/BG/logo.png" alt=""></a></div>
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-icon">☰</label>
         <ul class="menu">
-          <li><a href="index.html">Forside</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="galleri.html">Galleri</a></li>
           <li><a href="omos.html">Om os</a></li>
@@ -22,8 +22,49 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Kontakt</h1>
+    <main id="grid1_8_1">
+      <div id="kontakt">
+        <h1>Cafe Fuglereden</h1>
+        <h2>Kontakt</h2>
+        <div id="kontaktboks">
+          <div>
+            <img id="kontaktimg" src="imgs/baren.webp" alt="" />
+          </div>
+          <div>
+            <p>Du er velkommen til at kontakte os på telefon eller mail.</p>
+            <p>Tlf: +45 38332026</p>
+            <p>Mail: cafefuglereden@batak.dk</p>
+          </div>
+        </div>
+        <div id="formboks">
+          <h3>Arrangementer</h3>
+          <p>
+            Der bliver fra tid til anden lavet forskellige arrangementer på Cafè
+            Fuglereden.
+          </p>
+          <p>
+            Vi holder bl.a. fodboldaften, julefrokost, receptioner, fødselsdage.
+          </p>
+          <p>Se mere til vores arrangementer her.</p>
+          <p>
+            Du er velkommen til at sende en besked om ris/ros eller ideer til
+            arrangementer nedenfor.
+          </p>
+          <div class="form-felt">
+            <label for="fornavn">Fornavn</label>
+            <input
+              id="fornavn"
+              name="fname"
+              type="text"
+              autocomplete="given-name"
+            />
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" />
+            <label>Besked <textarea name="besked" rows="5"></textarea></label>
+            <button type="submit">Send</button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
