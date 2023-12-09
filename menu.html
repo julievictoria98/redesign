@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Menu</title>
-    <link rel="stylesheet" href="styles/menu.css" />
     <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+
   </head>
   <body>
     <header>
@@ -24,13 +25,14 @@
     </header>
     <main>
       <img src="imgs/beer_drawing.svg" id="beer_drawing">
-      <section class="menu-grid1-1">
-        <h1>Menu</h1>
-        <h3>Øl</h3>
-        <h3>Spiritus</h3>
+      <section class="menutop-grid1-1">
+      <h1>Café Fuglereden</h1>
+      <h2>Menu</h2>
       </section>
       <section class="menu-grid1-1">
-          <div class="flex_beer">
+        <article>
+          <h3>Øl</h3>
+          <div class="flexbox-beer">
             <div>
               <p>Carlsberg Pilsner</p>
               <p>Tuborg Pilsner</p>
@@ -55,30 +57,6 @@
               <p>Grimbergen 50cl.</p>
               <p>Gæste Fadøl 25cl.</p>
               <p>Gæste Fadøl 50cl.</p>
-              <br>
-              <h3>Drinks</h3>
-              <p>Tequila Sunrise</p>
-              <p>Isbjørn</p>
-              <p>Filur</p>
-              <p>Bloody Mary</p>
-              <p>Pina Colada</p>
-              <p>Fugleredens Drink</p>
-              <p>Brandbil</p>
-              <br>
-              <h3>Shots</h3>
-              <p>Små kolde</p>
-              <p>Galliano Hotshot</p>
-              <br>
-              <h3>Sodavand</h3>
-              <p>Coca Cola</p>
-              <p> Coca Cola Zero</p>
-              <p>Sprite</p>
-              <p>Tuborg squash</p>
-              <p>Schweppes Ginger Ale</p>
-              <p>Schweppes Lemon</p>
-              <p>Schweppes Tonic</p>
-              <p>Kinley Hindbær</p>
-              <p>Kinley Citornvand</p>
             </div>
             <div id="prices">
               <p>22,-/24,-</p>
@@ -106,7 +84,10 @@
               <p>55,-</p>
             </div>
           </div>
-          <div class="flex_beer">
+        </article>
+        <article id="alcohol">
+          <h3>Spiritus</h3>
+          <div class="flexbox-alchohol">
             <div>
               <p>Aalborg Snaps 2 cl.</p>
               <p>Gammel Dansk 2 cl.</p>
@@ -133,38 +114,151 @@
               <p>Jack Daniels 2 cl.</p>
               <p>Martell 2 cl.</p>
               <p>Cua Caramel 2 cl</p>
+              <p>Underberg 2 cl.</p>
               <p>Jose Guervo 2 cl.</p>
               <p>43 Liquer 2 cl.</p>
               <p>Gointreau 2 cl.</p>
               <p>Pasoa 2 cl.</p>
               <p>Ga-JoL Granatæble 2 cl.</p>
               <p>Baileys 2 cl.</p>
-              <br>
-              <h3>Diverse Drikkevarer</h3>
             </div>
             <div>
               <p>17,-</p>
               <p>17,-</p>
+              <p>17,</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>25,-</p>
+              <p>30,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>25,-</p>
+              <p>40,-</p>
+              <p>40,-</p>
+              <p>20,-</p>
+              <p>20,-</p>
+              <p>25,-</p>
+              <p>25-,</p>
+              <p>25,-</p>
+              <p>20,-</p>
               <p>17,-</p>
               <p>20,-</p>
               <p>20,-</p>
               <p>20,-</p>
-              <p>20,-</p>
-              <p>20,-</p>
-              <p>20,-</p>
-              <p>20,-</p>
-              <p>20,-</p>
-              <p>20,-</p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <p>15,-</p>
+              <p>15,-</p>
             </div>
           </div>
-          <div id="flexbox2">
+        </article>
+        <article id="drinks">
+          <h3>Drinks</h3>
+          <div id="flexbox-drinks">
+            <div>
+              <p>Tequila Sunrise</p>
+              <p>Isbjørn</p>
+              <p>Filur</p>
+              <p>Bloody Mary</p>
+              <p>Pina Colada</p>
+              <p>Fugleredens Drink</p>
+              <p>Brandbil</p>
+            </div>
+            <div>
+            <p>50,-</p>
+            <p>50,-</p>
+            <p>50,-</p>
+            <p>60,-</p>
+            <p>90,-</p>
+            <p>85,-</p>
+            <p>40,-</p>
+            <p></p>
+            </div>
           </div>
+        </article>
+        <article id="shots">
+          <h3>Shots</h3>
+          <div id="flexbox-shots">
+            <div>
+              <p>Små Kolde</p>
+              <p>Galliano Hotshot</p>
+            </div>
+            <div>
+            <p>30,-</p>
+            <p>30,-</p>
+            </div>
+          </div>
+        </article>
+        <article id="other">
+          <h3>Diverse</h3>
+          <div id="flexbox-other">
+            <div>
+              <p>Grand Vernaux</p>
+              <p>Grand Vernaux</p>
+              <p>Red Bull</p>
+              <p>Sommersby Blackberry</p>
+              <p>Sommersby Apple</p>
+              <p>Solita Appelsin Juice</p>
+              <p>Looza Æblejuice</p>
+              <p>Looza Ananasjuice</p>
+              <p>Looza Tomatjuice</p>
+              <p>Kaffe</p>
+              <p>Irish Cofee</p>
+              <p>Cocio</p>
+              <p>Carlsberg Kurvand</p>
+              <p>Carlsberg Kurvand Citrus</p>
+            </div>
+            <div>
+              <p>45,-</p>
+              <p>45,-</p>
+              <p>35,-</p>
+              <p>35,-</p>
+              <p>35,-</p>
+              <p>30,-</p>
+              <p>30,-</p>
+              <p>30,-</p>
+              <p>30,-</p>
+              <p>25,-</p>
+              <p>50,-</p>
+              <p>30,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+            </div>
+          </div>
+        </article>
+        <article id="soda">
+          <h3>Sodavand</h3>
+          <div id="flexbox-soda">
+            <div>
+              <p>Coca Cola</p>
+              <p> Coca Cola Zero</p>
+              <p>Sprite</p>
+              <p>Tuborg squash</p>
+              <p>Schweppes Ginger Ale</p>
+              <p>Schweppes Lemon</p>
+              <p>Schweppes Tonic</p>
+              <p>Kinley Hindbær</p>
+              <p>Kinley Citornvand</p>
+            </div>
+            <div>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+              <p>25,-</p>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
     <footer></footer>
