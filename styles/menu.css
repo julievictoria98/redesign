@@ -1,5 +1,16 @@
+body{
+     background-color: #DFCBA6;
+}
+
+
 main{
-    margin: 7%;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+#beer_drawing{
+    position: absolute;
+
 }
 
 .menu-grid1-1{
@@ -11,7 +22,10 @@ main{
     grid-column: -1/-3;
 }
 
-
+#flexbox2{
+    grid-column: -2/-3;
+    grid-row: 2;
+}
 .flex_beer {
     display: flex;
     flex-direction: row;

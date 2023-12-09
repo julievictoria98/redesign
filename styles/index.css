@@ -1,0 +1,91 @@
+@media screen and (min-width:480px) {
+
+#grid1_8_1{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+  }
+
+#grid2-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+#grid1-1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+#forside{
+  grid-column: 2;
+}
+
+#forsideimg{
+  width: 696px;
+  height: 1040px;
+  align-self: stretch;
+  object-fit: cover;
+}  
+
+}
+
+#grid1-1 a{
+  font-size: 1.5cqw;
+  padding-top: 30%;
+}
+
+#link1{
+  padding-bottom: 10%;
+}
+
+
+#forsidetekst{
+  background-color: #75341F80;
+  padding: 5%;
+}
+
+p{
+  color: #FFEFCF;
+  font-size: 2cqw;
+ }
+
+#grøntekst{
+ color: #384825;
+ padding-top: 10%;
+ padding-bottom: 10%;
+}
+
+
+/* background-color:rgb(240, 167, 175);
+        width: 239px;
+        height: 92px;
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+        align-items: center;
+        font-family: 'Abel';
+        display: grid;
+        margin-top: 10px;
+        width: 150px;
+        height: 50px;
+        margin-left: 45px; */
+
+#forsidebtns a{
+    text-decoration: none;
+    font-family:'Typewriter';
+    background-color:#374824;
+    color: #FFEECE;
+    cursor: pointer;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    display: grid;
+    margin-top: 5%;
+  }  
+
+a{
+    font-family: "Typewriter";
+    color: #FFEECE;
+  }  
+
+
+
