@@ -27,7 +27,7 @@
   object-fit: cover;
 }  
 
-}
+
 
 #grøncirkel{
   position: absolute;
@@ -58,6 +58,7 @@
   left: 70%;
   object-fit: cover;
   pointer-events: none;
+}
 }
 
 #underoverskift{
@@ -95,19 +96,6 @@ p{
  padding-bottom: 10%;
 }
 
-
-/* background-color:rgb(240, 167, 175);
-        width: 239px;
-        height: 92px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
-        align-items: center;
-        font-family: 'Abel';
-        display: grid;
-        margin-top: 10px;
-        width: 150px;
-        height: 50px;
-        margin-left: 45px; */
-
 #forsidebtns a{
     text-decoration: none;
     font-family:'Typewriter';
@@ -129,4 +117,52 @@ a{
   }  
 
 
+@media screen and (max-width:480px) {
+  #forsideimg{
+      width: 100%;
+    }  
 
+  #grøncirkel{
+      display: none;
+    }
+    
+  #rødcirkel{
+      display: none;
+    }
+    
+  #rødcirkelbund{
+      display: none;
+    }
+    
+  #fugl{
+      display: none;
+    }
+
+  p{
+      color: #FFEFCF;
+      font-size: 4cqw;
+     }
+
+  h2, h3{
+      color: #384825;
+      font-size: 6cqw;
+     }
+
+  h1{
+      color: #384825;
+      font-size: 8cqw;
+     }
+
+  #forsidebtns a{
+    padding-left: 40%;
+  } 
+
+  #forsidetekst{
+    margin-top: 5%;
+  }
+
+  #link1 a, #link2 a{
+    font-size: 4cqw;
+  }
+  }
+  
