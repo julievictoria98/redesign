@@ -19,19 +19,71 @@
   
   }
 
+
 body{
     background-image: url(/imgs/BG/paper.svg);
 }
+
+#kontaktboks p {
+  font-family: "Typewriter";
+  font-size: 2cqw;
+  margin-top: 15%;
+}
+
+#formboks{
+  font-family: "Typewriter";
+  font-size: 2cqw;
+  margin-top: 5%;
+}
+
+#grøncirkel{
+  position: absolute;
+  top: 34%;
+  left: -200px;
+  object-fit: cover;
+}
+
+#rødcirkel{
+  position: absolute;
+  top: 8%; 
+  left: 65%;
+  object-fit: cover;
+}
+
+#rødcirkelbund{
+  position: absolute;
+  top: 140%; 
+  left: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+#fugl{
+  position: absolute;
+  top: -8%; 
+  left: 70%;
+  width: 24%;
+  height: auto;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#underoverskift{
+  margin-left: 10%;
+}
+
 
 #kontaktboks{
   background-color: #75341F80;
   padding: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 10%;
 }
 
 #kontaktboks p{
   color: #FFEFCF;
+  opacity: 1
 }
 
 p{
@@ -46,7 +98,13 @@ p{
 
 
 /*Forms */
-form {
+
+#navnogemail{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* form {
   padding: 2rem;
   background: hsl(264 30% 96%);
   border-radius: 8px;
@@ -58,6 +116,7 @@ textarea,
 select,
 button {
   display: block;
-}
+  font-family: "Typewriter";
+} */
 
 /*Forms */
