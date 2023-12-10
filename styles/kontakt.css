@@ -18,7 +18,7 @@
   }  
   
   #kontaktboks{
-    background-color: #75341F80;
+    background-color: rgba(117, 52, 31, 0.50);
     padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,10 +98,16 @@ p{
 }
 
 #formboks{
-  background-color: #A48A63;
-  padding: 5%;;
+  background-color:rgba(164, 138, 99, 0.45);
+
+
+  padding: 5%;
 }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 
 /*Forms */

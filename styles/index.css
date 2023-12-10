@@ -61,6 +61,11 @@
 }
 }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #underoverskift{
   margin-left: 10%;
 }
@@ -80,7 +85,7 @@ body{
 
 
 #forsidetekst{
-  background-color: #75341F80;
+  background-color: rgba(117, 52, 31, 0.50);
   padding: 5%;
   margin-top: 20%;
 }
