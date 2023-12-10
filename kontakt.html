@@ -34,13 +34,14 @@
           <img src="imgs/BG/CirkelRødStor.svg" alt="" />
         </div>
         <div id="fugl"><img src="imgs/BG/fuglmØl.svg" alt="" /></div>
+        <div id="logoimg"><img src="imgs/BG/logoV2.png" alt=""></div>
         <h1>Cafe Fuglereden</h1>
         <h2 id="underoverskift">Kontakt</h2>
         <div id="kontaktboks">
           <div>
             <img id="kontaktimg" src="imgs/baren.webp" alt="" />
           </div>
-          <div>
+          <div id="kontakttekst">
             <p>Du er velkommen til at kontakte os på telefon eller mail.</p>
             <p>Tlf: +45 38332026</p>
             <p>Mail: cafefuglereden@batak.dk</p>
@@ -61,19 +62,21 @@
             arrangementer nedenfor.
           </p>
           <div class="form-felt">
-            <div id="navnogemail">
-              <label for="fornavn">Fornavn</label>
+            <div id="grid1-1">
+              <label id="fornavnlabel" for="fornavn">Navn</label>
               <input
                 id="fornavn"
                 name="fname"
                 type="text"
                 autocomplete="given-name"
               />
-              <label for="email">Email</label>
+              <label id="emaillabel" for="email">Email</label>
               <input id="email" name="email" type="email" />
             </div>
-            <label>Besked <textarea name="besked" rows="5"></textarea></label>
-            <button type="submit">Send</button>
+            <div id="beskedboks">
+              <label id="beskedlabel">Besked <textarea name="besked" rows="5"></textarea></label>
+            </div>
+            <button id="sendbutton" type="submit">Send</button>
           </div>
         </div>
       </div>

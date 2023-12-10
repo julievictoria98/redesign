@@ -28,6 +28,7 @@ body{
   font-family: "Typewriter";
   font-size: 2cqw;
   margin-top: 15%;
+  margin-left: 5%;
 }
 
 #formboks{
@@ -68,6 +69,14 @@ body{
   pointer-events: none;
 }
 
+#logoimg{
+  position: absolute;
+  top: 205%; 
+  left: 55%;
+  height: auto;
+  object-fit: cover;
+}
+
 #underoverskift{
   margin-left: 10%;
 }
@@ -99,16 +108,64 @@ p{
 
 /*Forms */
 
-#navnogemail{
+#grid1-1{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-/* form {
-  padding: 2rem;
-  background: hsl(264 30% 96%);
-  border-radius: 8px;
+#fornavnlabel{
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  color: #384825;
 }
+
+#emaillabel{
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  color: #384825;
+}
+
+#fornavn{
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  margin-right: 5%;
+}
+
+#email{
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  margin-right: 5%;
+}
+
+#beskedlabel{
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  color: #384825;
+}
+
+#beskedboks{
+  margin-right: 50%;
+}
+
+#sendbutton{
+    background-color: #384825;
+    color: #FEF7F7;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Typewriter";
+    font-size: 2cqw;
+    border: none;
+}
+
 
 label,
 input,
@@ -117,6 +174,6 @@ select,
 button {
   display: block;
   font-family: "Typewriter";
-} */
+} 
 
 /*Forms */
