@@ -17,6 +17,23 @@
     object-fit: cover;
   }  
   
+  #kontaktboks{
+    background-color: #75341F80;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+  }
+
+  #kontaktboks p {
+    font-family: "Typewriter";
+    font-size: 2cqw;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: #FFEFCF;
+  }
+  
+
   }
 
 
@@ -24,12 +41,6 @@ body{
     background-image: url(/imgs/BG/paper.svg);
 }
 
-#kontaktboks p {
-  font-family: "Typewriter";
-  font-size: 2cqw;
-  margin-top: 15%;
-  margin-left: 5%;
-}
 
 #formboks{
   font-family: "Typewriter";
@@ -57,6 +68,7 @@ body{
   left: 80%;
   height: auto;
   object-fit: cover;
+  z-index: -1;
 }
 
 #fugl{
@@ -81,20 +93,6 @@ body{
   margin-left: 10%;
 }
 
-
-#kontaktboks{
-  background-color: #75341F80;
-  padding: 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 10%;
-}
-
-#kontaktboks p{
-  color: #FFEFCF;
-  opacity: 1
-}
-
 p{
   color: #384825;
 }
@@ -107,12 +105,13 @@ p{
 
 
 /*Forms */
-
+@media screen and (min-width:480px) {
 #grid1-1{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-}
+}}
+
 
 #fornavnlabel{
   display: grid;
@@ -175,5 +174,63 @@ button {
   display: block;
   font-family: "Typewriter";
 } 
-
 /*Forms */
+
+
+@media screen and (max-width:480px) {
+  #grøncirkel{
+    display: none;
+  }
+  
+  #rødcirkel{
+    display: none;
+  }
+  
+  #rødcirkelbund{
+    display: none;
+  }
+  
+  #fugl{
+    display: none;
+  }
+  
+  #logoimg{
+    display: none;
+  }
+
+  #kontaktimg{
+    width: 100%;
+  }  
+  
+  #kontaktboks{
+    background-color: #75341F80;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+ 
+  #kontaktboks p {
+    font-family: "Typewriter";
+    font-size: 4cqw;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #FFEFCF;
+  }
+
+ #overskrift{
+    font-size: 8cqw;
+  }
+
+  #underoverskift, h3{
+    font-size: 6cqw;
+  }
+  
+  label{
+    font-size: 4cqw;
+  }
+
+  #sendbutton{
+    font-size: 4cqw;
+    
+}
+  
+  }
