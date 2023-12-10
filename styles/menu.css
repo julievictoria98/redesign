@@ -110,3 +110,28 @@ main{
 
 #prices{
 text-align: right;}
+
+/* Responsivt design */
+
+@media screen and (max-width: 599px) {
+
+
+    p {
+        font-size: small !important;
+    }
+
+    .menu-grid1-1 {
+        display: block; /* Reset to block or another appropriate display value */
+        grid-template-columns: initial; /* Reset grid-template-columns to its initial value */
+        gap: initial; /* Reset gap to its initial value */
+        row-gap: initial; /* Reset row-gap to its initial value */
+        margin-bottom: 0; /* Reset other properties if needed */
+    }
+    }
+
+@media screen and (max-width: 700px) {
+      #beer_drawing {
+        position: fixed !important;
+        display: none !important;
+    }
+    }
