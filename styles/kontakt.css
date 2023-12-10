@@ -1,46 +1,8 @@
 
-@media screen and (min-width:480px) {
-
-  #grid1_8_1{
-      display: grid;
-      grid-template-columns: 1fr 8fr 1fr;
-    }
-  
-  #kontakt{
-    grid-column: 2;
-  }
-
-  #kontaktimg{
-    width: 501px;
-    height: 461px;
-    align-self: stretch;
-    object-fit: cover;
-  }  
-  
-  #kontaktboks{
-    background-color: rgba(117, 52, 31, 0.50);
-    padding: 5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 10%;
-  }
-
-  #kontaktboks p {
-    font-family: "Typewriter";
-    font-size: 2cqw;
-    margin-top: 15%;
-    margin-left: 5%;
-    color: #FFEFCF;
-  }
-  
-
-  }
-
 
 body{
-    background-image: url(/imgs/BG/paper.svg);
+  background-image: url(/imgs/BG/paper.svg);
 }
-
 
 #formboks{
   font-family: "Typewriter";
@@ -109,6 +71,57 @@ body {
   overflow-x: hidden;
 }
 
+/* Links */
+a:link {
+  color: #75885F;
+}
+
+a:visited {
+  color: #75885F;
+}
+
+a:hover {
+  color: #bb3a30;
+}
+/* Links */
+
+
+/*Grids */
+@media screen and (min-width:480px) {
+
+  #grid1_8_1{
+      display: grid;
+      grid-template-columns: 1fr 8fr 1fr;
+    }
+  
+  #kontakt{
+    grid-column: 2;
+  }
+
+  #kontaktimg{
+    width: 501px;
+    height: 461px;
+    align-self: stretch;
+    object-fit: cover;
+  }  
+  
+  #kontaktboks{
+    background-color: rgba(117, 52, 31, 0.50);
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+  }
+
+  #kontaktboks p {
+    font-family: "Typewriter";
+    font-size: 2cqw;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: #FFEFCF;
+  }
+  }
+/*Grids */
 
 /*Forms */
 @media screen and (min-width:480px) {
@@ -171,7 +184,6 @@ body {
     border: none;
 }
 
-
 label,
 input,
 textarea,
@@ -182,7 +194,7 @@ button {
 } 
 /*Forms */
 
-
+/* Mobil */
 @media screen and (max-width:480px) {
   #grøncirkel{
     display: none;
@@ -240,3 +252,5 @@ button {
 }
   
   }
+
+/* Mobil */

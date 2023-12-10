@@ -1,66 +1,3 @@
-@media screen and (min-width:480px) {
-
-#grid1_8_1{
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-  }
-
-#grid2-1{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-
-#grid1-1{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-
-#forside{
-  grid-column: 2;
-}
-
-#forsideimg{
-  margin-top: 10%;
-  width: 696px;
-  height: 1040px;
-  align-self: stretch;
-  object-fit: cover;
-}  
-
-
-
-#grøncirkel{
-  position: absolute;
-  top: 34%;
-  left: -200px;
-  object-fit: cover;
-}
-
-#rødcirkel{
-  position: absolute;
-  top: 8%; 
-  left: 65%;
-  object-fit: cover;
-}
-
-#rødcirkelbund{
-  position: absolute;
-  top: 180%; 
-  left: 36%;
-  height: auto;
-  object-fit: cover;
-  z-index: -1;
-}
-
-#fugl{
-  position: absolute;
-  top: -8%; 
-  left: 70%;
-  object-fit: cover;
-  pointer-events: none;
-}
-}
-
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -121,7 +58,71 @@ a{
     color: #FFEECE;
   }  
 
+/* Desktop */
+@media screen and (min-width:480px) {
 
+#grid1_8_1{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+  }
+
+#grid2-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+#grid1-1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+#forside{
+  grid-column: 2;
+}
+
+#forsideimg{
+  margin-top: 10%;
+  width: 696px;
+  height: 1040px;
+  align-self: stretch;
+  object-fit: cover;
+}  
+
+#grøncirkel{
+  position: absolute;
+  top: 34%;
+  left: -200px;
+  object-fit: cover;
+}
+
+#rødcirkel{
+  position: absolute;
+  top: 8%; 
+  left: 65%;
+  object-fit: cover;
+}
+
+#rødcirkelbund{
+  position: absolute;
+  top: 180%; 
+  left: 36%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#fugl{
+  position: absolute;
+  top: -8%; 
+  left: 70%;
+  object-fit: cover;
+  pointer-events: none;
+}
+}
+/* Desktop */
+
+
+/* Mobil */
 @media screen and (max-width:480px) {
   #forsideimg{
       width: 100%;
@@ -170,4 +171,4 @@ a{
     font-size: 4cqw;
   }
   }
-  
+  /* Mobil */
