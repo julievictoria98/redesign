@@ -19,6 +19,10 @@
   
   }
 
+body{
+    background-image: url(/imgs/BG/paper.svg);
+}
+
 #kontaktboks{
   background-color: #75341F80;
   padding: 5%;

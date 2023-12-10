@@ -28,6 +28,10 @@
 
 }
 
+body{
+  background-image: url(/imgs/BG/paper.svg);
+}
+
 #grid1-1 a{
   font-size: 1.5cqw;
   padding-top: 30%;
