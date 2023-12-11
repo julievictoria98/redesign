@@ -7,15 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-.About-us-grid1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #a48a6373;
-  column-gap: 10%;
-  padding: 6%;
-  margin-bottom: 70px;
-}
-
 .grid1_8_1 {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
@@ -92,6 +83,11 @@ body {
 /* Tekst styling */
 p {
   font-size: 2rem;
+  color: #374824;
+}
+
+a {
+  color: #75885f;
 }
 
 h2 {
@@ -111,10 +107,21 @@ h2 {
   height: 80vh;
   margin-bottom: 70px;
 }
-
+.About-us-grid1-1 {
+  background-color: #a48a6373;
+  column-gap: 10%;
+  padding: 6%;
+  margin-bottom: 70px;
+}
+@media screen and (min-width: 599px) {
+  .About-us-grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media screen and (max-width: 599px) {
   p {
-    font-size: small;
+    font-size: 4cqw;
   }
 
   #video_container .youtube_video {
