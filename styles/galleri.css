@@ -1,9 +1,9 @@
 /* Baggrund */
-body{
+body {
   background-image: url(/imgs/BG/paper.svg);
 }
 
-#grøncirkel{
+#grøncirkel {
   position: absolute;
   top: 34%;
   left: -200px;
@@ -11,91 +11,158 @@ body{
   z-index: -2;
 }
 
-#rødcirkel{
+#rødcirkel {
   position: absolute;
-  top: 8%; 
+  top: 8%;
   left: 65%;
   object-fit: cover;
   z-index: -2;
 }
 
-#rødcirkelbund{
+#rødcirkelbund {
   position: absolute;
-  top: 200%; 
+  top: 200%;
   left: 30%;
   height: auto;
   object-fit: cover;
   z-index: -2;
 }
 
-#galleriside{
+#galleriside {
   overflow-x: hidden;
 }
 
-#kant{
-  margin: 3%;
+.span {
+  grid-column: 1/-1;
 }
 
-/* Toppen */
-#galleriSide h1{
-  grid-column: 1/3;
-  font-size: 140px;
-  position: relative;
-  top: -20%;
-  left: 10%;
+.midt {
+  grid-column: 2/-2;
 }
 
-#galleriSide h2{
-  font-family: 'Typewriter';
-  font-size: 55px;
-  position: absolute;
-  top: 45%;
-  left: 27%;
+/* ------------------ WEB --------------------- */
+@media screen and (min-width: 480px) {
+  /* GRID layout */
+  .grid_1_8_1 {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+
+  /* Toppen */
+  #galleriSide h1 {
+    grid-column: 1/3;
+    font-size: 140px;
+    position: relative;
+    top: -20%;
+    left: 10%;
+  }
+
+  #galleriSide h2 {
+    font-family: "Typewriter";
+    font-size: 55px;
+    position: absolute;
+    top: 45%;
+    left: 27%;
+  }
+
+  /* billede style */
+  .foto {
+    position: relative;
+    width: 657px;
+    height: 441px;
+  }
+
+  #toOl {
+    position: absolute;
+    width: 407px;
+    height: 432px;
+    top: 10%;
+    left: 65%;
+    z-index: -1;
+  }
+
+  /* Knap */
+  .btn {
+    background-color: #374824;
+    width: 1359px;
+    height: 75px;
+    color: #ffeece;
+    font-family: "Typewriter";
+    font-size: 20px;
+    position: absolute;
+    margin-top: 2%;
+    justify-content: center;
+    border: none;
+    outline: none;
+  }
 }
 
-
-/* GRID layout */
-.grid_1_8_1 {
-  display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
-  column-gap: 1em;
-  row-gap: 1em;
+/* ---------------- MOBIL ------------------- */
+@media screen and (max-width: 480px) {
+ /* bg */
+ #grøncirkel{
+  display: none;
 }
 
-.grid_1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1em;
-  row-gap: 1em;
+#rødcirkel{
+  display: none;
 }
 
-/* billede style */
-.foto {
-  position: relative;
-  width: 657px;
-  height: 441px;
+#rødcirkelbund{
+  display: none;
 }
 
-#toOl {
-  position: absolute;
-  width: 407px;
-  height: 432px;
-  top: 10%;
-  left: 65%;
-  z-index: -1;
-}
+  /* Toppen */
+  #galleriSide h1 {
+    grid-column: 1/3;
+    font-size: 50px;
+    position: relative;
+    top: -20%;
+    left: 10%;
+    margin-bottom: 0;
+  }
 
-/* Knap */
-.btn {
-  background-color: #374824;
-  width: 1359px;
-  height: 75px;
-  color: #ffeece;
-  font-family: "Typewriter";
-  font-size: 20px;
-  position: absolute;
-  margin-top: 2%;
-  justify-content: center;
-  border: none;
-  outline: none;
+  #galleriSide h2 {
+    font-family: "Typewriter";
+    font-size: 25px;
+    position: relative;
+    top: -10%;
+    left: 27%;
+    margin-top: 0;
+  }
+
+  /* billede style */
+  .foto {
+    position: relative;
+    width: 357px;
+    height: auto;
+  }
+
+  #toOl {
+ display: none;
+  }
+
+  /* Knap */
+  .btn {
+    background-color: #374824;
+    width: 357px;
+    height: 55px;
+    color: #ffeece;
+    font-family: "Typewriter";
+    font-size: 15px;
+    position: relative;
+    margin-top: 2%;
+    justify-content: center;
+    border: none;
+    outline: none;
+  }
 }
