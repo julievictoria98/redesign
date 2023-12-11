@@ -150,4 +150,18 @@ body {
   #toOl {
     display: none;
   }
+
+    /* Knap */
+    .btn {
+      background-color: #374824;
+      width: 420px;
+      height: 35px;
+      color: #ffeece;
+      font-family: "Typewriter";
+      font-size: 15px;
+      position: relative;
+      margin-top: 2%;
+      border: none;
+      outline: none;
+    }
 }
