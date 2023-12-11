@@ -22,8 +22,9 @@ body {
 .CirkelRød {
   position: absolute;
   z-index: -1;
-  left: 60%;
-  bottom: 25%;
+  left: 65%;
+  bottom: 30%;
+  width: 30%;
 }
 
 #CirkelRødLil {
@@ -57,7 +58,7 @@ body {
 
 /* billedestørrelse */
 .glas {
-  width: 70%;
+  width: 80%;
   justify-content: center;
   justify-items: center;
 }
@@ -72,7 +73,7 @@ body {
 }
 .spillemaskine {
   display: relative;
-  width: 70%;
+  width: 80%;
   margin-top: 5%;
 }
 
@@ -113,12 +114,15 @@ h2 {
   padding: 6%;
   margin-bottom: 70px;
 }
+
 @media screen and (min-width: 599px) {
   .About-us-grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* mobilsite */
 @media screen and (max-width: 599px) {
   p {
     font-size: 4cqw;
@@ -141,5 +145,17 @@ h2 {
 
   #toøl {
     display: none;
+  }
+
+  .glas {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .spillemaskine {
+    display: relative;
+    width: 100%;
+    margin-top: 5%;
   }
 }
