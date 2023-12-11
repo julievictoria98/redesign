@@ -95,7 +95,6 @@ h2 {
   margin-top: -5%;
   font-family: "Typewriter";
   color: #374824;
-  font-size: 4cqw;
   margin-left: 10%;
 }
 #arrangementer p {
@@ -125,15 +124,15 @@ h2 {
 /* mobilsite */
 @media screen and (max-width: 599px) {
   p {
-    font-size: 4cqw;
+    font-size: 1rem;
   }
   
   h1 {
-    font-size: 8cqw;
+    font-size: 2rem;
   }
 
   h2, h3{
-    font-size: 6cqw;
+    font-size: 1.3rem;
    }
 
 

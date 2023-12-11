@@ -13,7 +13,7 @@ body{
 }
 
 #grid1-1 a{
-  font-size: 1.5cqw;
+  font-size: 1.5rem;
   padding-top: 30%;
 }
 
@@ -30,7 +30,7 @@ body{
 
 p{
   color: #FFEFCF;
-  font-size: 2cqw;
+  font-size: 1.8rem;
  }
 
 #grøntekst{
@@ -164,17 +164,17 @@ a{
 
   p{
       color: #FFEFCF;
-      font-size: 4cqw;
+      font-size: 1rem;
      }
 
   h2, h3{
       color: #384825;
-      font-size: 6cqw;
+      font-size: 1.3rem;
      }
 
   h1{
       color: #384825;
-      font-size: 8cqw;
+      font-size: 2rem;
      }
 
   #forsidebtns a{
@@ -186,7 +186,7 @@ a{
   }
 
   #link1 a, #link2 a{
-    font-size: 4cqw;
+    font-size: 1.2rem;
   }
 
   #mobilfugl{

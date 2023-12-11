@@ -6,7 +6,7 @@ body{
 
 #formboks{
   font-family: "Typewriter";
-  font-size: 2cqw;
+  font-size: 1.5rem;
   margin-top: 5%;
 }
 
@@ -125,7 +125,7 @@ a:hover {
 
   #kontaktboks p {
     font-family: "Typewriter";
-    font-size: 2cqw;
+    font-size: 1.5rem;
     margin-top: 15%;
     margin-left: 5%;
     color: #FFEFCF;
@@ -191,7 +191,7 @@ a:hover {
     padding-left: 5%;
     padding-right: 5%;
     font-family: "Typewriter";
-    font-size: 2cqw;
+    font-size: 1.5rem;
     border: none;
 }
 
@@ -239,26 +239,26 @@ button {
  
   #kontaktboks p {
     font-family: "Typewriter";
-    font-size: 4cqw;
+    font-size: 1rem;
     margin-top: 5%;
     margin-left: 5%;
     color: #FFEFCF;
   }
 
  #overskrift{
-    font-size: 8cqw;
+    font-size: 2rem;
   }
 
   #underoverskift, h3{
-    font-size: 6cqw;
+    font-size: 1.5rem;
   }
   
   label{
-    font-size: 4cqw;
+    font-size: 1rem;
   }
 
   #sendbutton{
-    font-size: 4cqw;
+    font-size: 1rem;
     
 }
 
