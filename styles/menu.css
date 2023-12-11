@@ -53,7 +53,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    row-gap: 1px;
+    row-gap: 0px;
 }
 
 .menu-grid1-1{
