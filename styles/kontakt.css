@@ -52,7 +52,9 @@ body{
 }
 
 #underoverskift{
+  font-family: "Typewriter";
   margin-left: 10%;
+  margin-top: -3%;
 }
 
 p{
