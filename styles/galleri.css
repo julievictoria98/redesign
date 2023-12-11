@@ -28,6 +28,10 @@ body{
   z-index: -2;
 }
 
+#galleriside{
+  overflow-x: hidden;
+}
+
 #kant{
   margin: 3%;
 }
