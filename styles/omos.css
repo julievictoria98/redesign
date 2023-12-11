@@ -23,7 +23,7 @@ body {
   position: absolute;
   z-index: -1;
   left: 60%;
-  bottom: 12%;
+  bottom: 25%;
 }
 
 #CirkelRødLil {
@@ -34,10 +34,10 @@ body {
 }
 
 #fuglmØl {
-  width: 25%;
+  width: 30%;
   position: absolute;
-  left: 80%;
-  top: 40%;
+  left: 77%;
+  top: 11%;
 }
 
 #toøl {
