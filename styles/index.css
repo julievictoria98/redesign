@@ -1,3 +1,64 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#underoverskift{
+  margin-left: 10%;
+}
+
+body{
+  background-image: url(/imgs/BG/paper.svg);
+}
+
+#grid1-1 a{
+  font-size: 1.5cqw;
+  padding-top: 30%;
+}
+
+#link1{
+  padding-bottom: 10%;
+}
+
+
+#forsidetekst{
+  background-color: rgba(117, 52, 31, 0.50);
+  padding: 5%;
+  margin-top: 20%;
+}
+
+p{
+  color: #FFEFCF;
+  font-size: 2cqw;
+ }
+
+#grøntekst{
+ color: #384825;
+ padding-top: 10%;
+ padding-bottom: 10%;
+}
+
+#forsidebtns a{
+    text-decoration: none;
+    font-family:'Typewriter';
+    background-color:#374824;
+    color: #FFEECE;
+    cursor: pointer;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    display: grid;
+    margin-top: 5%;
+  }  
+
+a{
+    font-family: "Typewriter";
+    color: #FFEECE;
+  }  
+
+/* Desktop */
 @media screen and (min-width:480px) {
 
 #grid1_8_1{
@@ -20,72 +81,94 @@
 }
 
 #forsideimg{
+  margin-top: 10%;
   width: 696px;
   height: 1040px;
   align-self: stretch;
   object-fit: cover;
 }  
 
+#grøncirkel{
+  position: absolute;
+  top: 34%;
+  left: -200px;
+  object-fit: cover;
 }
 
-#grid1-1 a{
-  font-size: 1.5cqw;
-  padding-top: 30%;
+#rødcirkel{
+  position: absolute;
+  top: 8%; 
+  left: 65%;
+  object-fit: cover;
 }
 
-#link1{
-  padding-bottom: 10%;
+#rødcirkelbund{
+  position: absolute;
+  top: 180%; 
+  left: 36%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
 }
 
-
-#forsidetekst{
-  background-color: #75341F80;
-  padding: 5%;
+#fugl{
+  position: absolute;
+  top: -8%; 
+  left: 70%;
+  object-fit: cover;
+  pointer-events: none;
 }
-
-p{
-  color: #FFEFCF;
-  font-size: 2cqw;
- }
-
-#grøntekst{
- color: #384825;
- padding-top: 10%;
- padding-bottom: 10%;
 }
+/* Desktop */
 
 
-/* background-color:rgb(240, 167, 175);
-        width: 239px;
-        height: 92px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
-        align-items: center;
-        font-family: 'Abel';
-        display: grid;
-        margin-top: 10px;
-        width: 150px;
-        height: 50px;
-        margin-left: 45px; */
+/* Mobil */
+@media screen and (max-width:480px) {
+  #forsideimg{
+      width: 100%;
+    }  
 
-#forsidebtns a{
-    text-decoration: none;
-    font-family:'Typewriter';
-    background-color:#374824;
-    color: #FFEECE;
-    cursor: pointer;
-    padding-left: 50%;
-    padding-right: 50%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    align-items: center;
-    display: grid;
+  #grøncirkel{
+      display: none;
+    }
+    
+  #rødcirkel{
+      display: none;
+    }
+    
+  #rødcirkelbund{
+      display: none;
+    }
+    
+  #fugl{
+      display: none;
+    }
+
+  p{
+      color: #FFEFCF;
+      font-size: 4cqw;
+     }
+
+  h2, h3{
+      color: #384825;
+      font-size: 6cqw;
+     }
+
+  h1{
+      color: #384825;
+      font-size: 8cqw;
+     }
+
+  #forsidebtns a{
+    padding-left: 40%;
+  } 
+
+  #forsidetekst{
     margin-top: 5%;
-  }  
+  }
 
-a{
-    font-family: "Typewriter";
-    color: #FFEECE;
-  }  
-
-
-
+  #link1 a, #link2 a{
+    font-size: 4cqw;
+  }
+  }
+  /* Mobil */

@@ -1,16 +1,44 @@
-/* tekst og overskrift */
-h1{
-  font-size: 150px;
+/* Baggrund */
+body{
+  background-image: url(/imgs/BG/paper.svg);
 }
 
-h3{
-  font-family: 'Typewriter';
-  font-size: 50px;
+#grøncirkel{
+  position: absolute;
+  top: 34%;
+  left: -200px;
+  object-fit: cover;
+}
+
+#rødcirkel{
+  position: absolute;
+  top: 8%; 
+  left: 65%;
+  object-fit: cover;
+}
+
+#rødcirkelbund{
+  position: absolute;
+  top: 200%; 
+  left: 30%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #kant{
-    margin: 3%;
+  margin: 3%;
 }
+
+/* Toppen */
+#galleriSide h1{
+  grid-column: 1/3;
+  font-size: 120px;
+
+}
+
+
+
 
 /* GRID layout */
 .grid_1_8_1 {
@@ -35,9 +63,10 @@ h3{
 }
 
 #toOl {
-  position: relative;
+  position: absolute;
   width: 407px;
   height: 432px;
+  left: 70%;
 }
 
 /* Knap */
