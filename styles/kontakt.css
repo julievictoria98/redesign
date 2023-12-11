@@ -91,6 +91,14 @@ a:hover {
 /*Grids */
 @media screen and (min-width:480px) {
 
+  #mobilfugl{
+    display: none;
+  }
+
+  #mobilcirkel{
+    display: none;
+  }
+
   #grid1_8_1{
       display: grid;
       grid-template-columns: 1fr 8fr 1fr;
@@ -252,6 +260,19 @@ button {
   #sendbutton{
     font-size: 4cqw;
     
+}
+
+#mobilfugl{
+  position: absolute;
+  left: 65%;
+  top: 18%;
+}
+
+#mobilcirkel{
+  position: absolute;
+  top: 160%; 
+  left: 70%;
+  z-index: -1;
 }
   
   }

@@ -25,7 +25,7 @@ body{
 #forsidetekst{
   background-color: rgba(117, 52, 31, 0.50);
   padding: 5%;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 p{
@@ -62,6 +62,22 @@ a{
 /* Desktop */
 @media screen and (min-width:480px) {
 
+#forsidetekst{
+  padding-top: 14%;
+  }
+
+#mobilfugl{
+    display: none;
+  }
+
+#mobilcirkel{
+    display: none;
+  }
+
+#drikkevarer{
+    display: none;
+  }
+
 #grid1_8_1{
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
@@ -82,7 +98,7 @@ a{
 }
 
 #forsideimg{
-  margin-top: 10%;
+  margin-top: 2.5%;
   width: 696px;
   height: 1040px;
   align-self: stretch;
@@ -172,5 +188,25 @@ a{
   #link1 a, #link2 a{
     font-size: 4cqw;
   }
+
+  #mobilfugl{
+    position: absolute;
+    left: 65%;
+    top: 15%;
+  }
+  
+  #mobilcirkel{
+    position: absolute;
+    top: 90%; 
+    left: 65%;
+    z-index: -1;
+  }
+
+  #drikkevarer{
+    position: absolute;
+    top: 150%; 
+    left: 65%;
+  }
+    
   }
   /* Mobil */
