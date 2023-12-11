@@ -44,9 +44,9 @@ body{
 }
 
 #logoimg{
-  position: absolute;
-  top: 205%; 
-  left: 55%;
+  position: relative;
+  top: 50%; 
+  left: 20%;
   height: auto;
   object-fit: cover;
 }
@@ -170,7 +170,8 @@ a:hover {
 }
 
 #beskedboks{
-  margin-right: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #sendbutton{
