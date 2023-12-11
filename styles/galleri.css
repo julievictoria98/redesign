@@ -143,8 +143,7 @@ body {
   /* billede style */
   .foto {
     position: relative;
-    width: 357px;
-    height: auto;
+    max-width: 100%;
   }
 
   #toOl {
