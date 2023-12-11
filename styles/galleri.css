@@ -129,6 +129,7 @@ body {
     top: -20%;
     left: 10%;
     margin-bottom: 0;
+    max-width: 380px;
   }
 
   #galleriSide h2 {
@@ -138,6 +139,7 @@ body {
     top: -10%;
     left: 27%;
     margin-top: 0;
+    max-width: 200px;
   }
 
   /* billede style */
