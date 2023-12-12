@@ -21,32 +21,31 @@ body{
   h1{
     font-family: "Bearer";
     color: #374824;
-    font-size: 8cqw;
+    font-size: 2rem;
   }
   
   h2 {
     font-family: "Bearer";
     color: #374824;
-    font-size: 4cqw;
+    font-size: 1.3rem;
   }
   
   p {
     font-family: "Typewriter";
-    font-size: 4cqw;
+    font-size: 1rem;
   }
- 
   }
 
 h1{
   font-family: "Bearer";
   color: #374824;
-  font-size: 5cqw;
+  font-size: 4.5rem;
 }
 
 h2 {
   font-family: "Typewriter";
   color: #374824;
-  font-size: 3cqw;
+  font-size: 2.5rem;
 }
 
 h3{
@@ -106,8 +105,8 @@ header nav {
 }
 
 .menu li {
-  margin-right: 10cqw;
-  margin-left: 5cqw;
+  margin-right: 7rem;
+  margin-left: 6rem;
 }
 
 .menu a {
@@ -134,6 +133,10 @@ header nav {
 
 @media screen and (min-width: 600px) {
   input[type="checkbox"] {
+    display: none;
+  }
+
+  #hjemknap{
     display: none;
   }
 }

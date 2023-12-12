@@ -1,5 +1,12 @@
 h3{color: #bb3a30;}
 
+p {color: #374824;}
+
+#underoverskift{
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+
 body{
     background-image: url(/imgs/BG/paper.svg);
 }
@@ -39,14 +46,32 @@ main{
     object-fit: cover;
 }
 
+@media screen and (min-width: 499px) {     
 #bird-circle{
     position: absolute;
-    top: 16%; /* Adjust the left value based on your design */
-    left: 55%;
+    top: 10%; 
+    left: 65%;
     width: 24%;
     height: auto;
     object-fit: cover;
 }
+
+
+#tegning{
+    display: none;
+}
+
+#rødcirkel{
+    display: none;
+}
+
+#fuglmedøl{
+    display: none;
+}
+
+
+
+} 
 
 /* Grids og Flexbox */
 .menutop-grid1-1{
@@ -145,8 +170,7 @@ text-align: right;}
 
 /* Responsivt design */
 
-@media screen and (max-width: 599px) {
-
+@media screen and (max-width: 499px) {
 
     p {
         font-size: small !important;
@@ -176,10 +200,41 @@ text-align: right;}
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 499px) {
       #beer_drawing {
         position: fixed !important;
         display: none !important;
     }
 
+
+    #menu #bird-circle{
+        position: absolute;
+        top: 30%; 
+        left: 60%;
+        display: none;
+    }  
+
+    #tegning{
+        position: absolute;
+        top: 155%;
+        left: 45%;
+
+    }
+    
+    #rødcirkel{
+        position: absolute;
+        top: 20%; 
+        left: 60%;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    #fuglmedøl{
+        position: absolute;
+        top: 28%; 
+        left: 70%;
+        overflow-x: hidden;
+    }
+  
+        
     }

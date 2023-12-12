@@ -6,7 +6,7 @@ body{
 
 #formboks{
   font-family: "Typewriter";
-  font-size: 2cqw;
+  font-size: 1.5rem;
   margin-top: 5%;
 }
 
@@ -91,6 +91,14 @@ a:hover {
 /*Grids */
 @media screen and (min-width:480px) {
 
+  #mobilfugl{
+    display: none;
+  }
+
+  #mobilcirkel{
+    display: none;
+  }
+
   #grid1_8_1{
       display: grid;
       grid-template-columns: 1fr 8fr 1fr;
@@ -117,7 +125,7 @@ a:hover {
 
   #kontaktboks p {
     font-family: "Typewriter";
-    font-size: 2cqw;
+    font-size: 1.8rem;
     margin-top: 15%;
     margin-left: 5%;
     color: #FFEFCF;
@@ -183,7 +191,7 @@ a:hover {
     padding-left: 5%;
     padding-right: 5%;
     font-family: "Typewriter";
-    font-size: 2cqw;
+    font-size: 1.5rem;
     border: none;
 }
 
@@ -231,27 +239,40 @@ button {
  
   #kontaktboks p {
     font-family: "Typewriter";
-    font-size: 4cqw;
+    font-size: 1rem;
     margin-top: 5%;
     margin-left: 5%;
     color: #FFEFCF;
   }
 
  #overskrift{
-    font-size: 8cqw;
+    font-size: 2rem;
   }
 
   #underoverskift, h3{
-    font-size: 6cqw;
+    font-size: 1.5rem;
   }
   
   label{
-    font-size: 4cqw;
+    font-size: 1rem;
   }
 
   #sendbutton{
-    font-size: 4cqw;
+    font-size: 1rem;
     
+}
+
+#mobilfugl{
+  position: absolute;
+  left: 65%;
+  top: 18%;
+}
+
+#mobilcirkel{
+  position: absolute;
+  top: 180%; 
+  left: 70%;
+  z-index: -1;
 }
   
   }
