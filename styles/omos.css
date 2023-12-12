@@ -58,7 +58,7 @@ body {
 
 /* billedestørrelse */
 .glas {
-  width: 80%;
+  width: 70%;
   justify-content: center;
   justify-items: center;
 }
@@ -73,7 +73,7 @@ body {
 }
 .spillemaskine {
   display: relative;
-  width: 80%;
+  width: 70%;
   margin-top: 5%;
 }
 
