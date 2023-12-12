@@ -110,6 +110,7 @@ header nav {
 }
 
 .menu a {
+  z-index: 10;
   text-decoration: none;
   color: #374824;
   font-family: "Typewriter";
