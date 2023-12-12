@@ -34,13 +34,6 @@ body {
   bottom: 1%;
 }
 
-#fuglmØl {
-  width: 30%;
-  position: absolute;
-  left: 77%;
-  top: 11%;
-}
-
 #toøl {
   position: absolute;
   bottom: 45%;
@@ -119,6 +112,21 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  #cirkel_mobil_stor {
+    display: none;
+  }
+
+  #cirkel_mobil_lille {
+    display: none;
+  }
+
+  #fuglmØl {
+    width: 25%;
+    position: absolute;
+    left: 81%;
+    top: 15%;
+  }
 }
 
 /* mobilsite */
@@ -126,15 +134,15 @@ h2 {
   p {
     font-size: 1rem;
   }
-  
+
   h1 {
     font-size: 2rem;
   }
 
-  h2, h3{
+  h2,
+  h3 {
     font-size: 1.3rem;
-   }
-
+  }
 
   #video_container .youtube_video {
     /* video-størrelse */
@@ -149,6 +157,28 @@ h2 {
 
   .CirkelRød {
     display: none;
+  }
+
+  #cirkel_mobil_stor {
+    position: absolute;
+    z-index: -1;
+    left: 55%;
+    bottom: 60%;
+    width: 50%;
+  }
+
+  #cirkel_mobil_lille {
+    position: absolute;
+    z-index: -1;
+    left: -10%;
+    top: 40%;
+  }
+
+  #fuglmØl {
+    width: 35%;
+    position: absolute;
+    left: 73%;
+    top: 15%;
   }
 
   #toøl {
