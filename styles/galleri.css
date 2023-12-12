@@ -197,7 +197,7 @@ body {
     /* Knap */
     .btn {
       background-color: #374824;
-      width: 340px;
+      width: 100%;
       height: 35px;
       color: #ffeece;
       font-family: "Typewriter";
