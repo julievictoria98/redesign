@@ -13,7 +13,6 @@ body {
 }
 
 #om_os {
-  grid-column: 1fr;
   display: grid;
   grid-column: 2;
 }
@@ -65,7 +64,7 @@ body {
   text-align: center;
 }
 .spillemaskine {
-  display: relative;
+  position: relative;
   width: 70%;
   margin-top: 5%;
 }
@@ -192,7 +191,7 @@ h2 {
   }
 
   .spillemaskine {
-    display: relative;
+    position: relative;
     width: 100%;
     margin-top: 5%;
   }
