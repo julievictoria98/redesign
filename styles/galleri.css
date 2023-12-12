@@ -73,18 +73,21 @@ body {
   /* Toppen */
   #galleriSide h1 {
     grid-column: 1/3;
-    font-size: 140px;
+    font-size: 4.5rem;
     position: relative;
-    top: -20%;
+    top: -5%;
     left: 10%;
+    margin-bottom: 0;
   }
 
   #galleriSide h2 {
     font-family: "Typewriter";
-    font-size: 55px;
-    position: absolute;
-    top: 45%;
-    left: 27%;
+    font-size: 2.5rem;
+    position: relative;
+    top: -10%;
+    left: 36%;
+    margin-top: 0;
+    margin-bottom: 10%;
   }
 
   /* billede style */
@@ -99,8 +102,8 @@ body {
     width: 407px;
     height: 432px;
     top: 10%;
-    left: 65%;
-    z-index: -1;
+    left: 67%;
+    z-index: 1;
   }
 
   /* Knap */
