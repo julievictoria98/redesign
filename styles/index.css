@@ -118,6 +118,7 @@ a{
   left: 65%;
   object-fit: cover;
   z-index: -2;
+  pointer-events: none;
 }
 
 #rødcirkelbund{
