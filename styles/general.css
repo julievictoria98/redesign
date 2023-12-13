@@ -1,7 +1,9 @@
 
 body{
   background-color: #C5B08A;
+  background-image: url(/imgs/BG/paper.png);
 }
+
 
 /* Fontface */
 @font-face {
