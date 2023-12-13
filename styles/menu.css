@@ -7,9 +7,7 @@ p {color: #374824;}
     margin-top: -5%;
   }
 
-body{
-    background-image: url(/imgs/BG/paper.svg);
-}
+
 
 main{
     display: grid;
