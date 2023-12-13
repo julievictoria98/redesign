@@ -8,7 +8,6 @@ p {color: #374824;}
   }
 
 
-
 main{
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
